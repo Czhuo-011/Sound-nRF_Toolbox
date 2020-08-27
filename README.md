@@ -1,2 +1,2 @@
-# Sound-nRF_Toolbox
+# Sound nRF Toolbox
  
