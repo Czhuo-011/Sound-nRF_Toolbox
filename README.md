@@ -1,6 +1,6 @@
 # Sound nRF Toolbox
  
-Sound nRF is an extended version of the nRF Toolbox which can be found at https://github.com/NordicSemiconductor/Android-nRF-Toolbox. This manual provides the code explanation how to add sound synchronization with cadence data to the nRF Toolbox app. It also shows how to enable/re-enable sound for 2-minutes when the presented cadence deviates by 15.
+Sound nRF is an extended version of the nRF Toolbox which can be found at https://github.com/NordicSemiconductor/Android-nRF-Toolbox. it connects to a BLE (Bluetooth low energy) device and provide audio feedback in sync with the provided cadence characteristic measurement. The sound feedback enables for 2-minutes. At the end of the 2-minutes, the present cadence serves as the predefined threshold. As long the present cadence stabilizes within 15 range, the sound gets disabled after the initial 2-minute. If it deviates from the present cadence by 15, the sound re-enables for another 2-minutes. With this system, runners do not receive constant feedback when their cadence stabilizes. The sound serves as an auditory alarm and a compass to help runners find their ideal cadence.
 
 ## Requirements.
 - An Android IDE for Android operating system such as Android Studio (https://developer.android.com/studio)
