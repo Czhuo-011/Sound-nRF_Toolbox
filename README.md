@@ -24,6 +24,7 @@ After selecting that option, you can type the URL of the repository, press "Clon
 ## RSC path
 
 To find the path to RSC cadence characteristics, go to <i>Users\username\...\Android-nRF-Toolbox-master\app\src\main\java\no\nordicsemi\android\nrftoolbox\rsc\ </i>
+
 Find more information in the Manual.pdf
  
 
