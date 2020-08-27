@@ -4,7 +4,7 @@ Sound nRF is an extended version of the nRF Toolbox which can be found at https:
 
 ## Requirements.
 - An Android IDE for Android operating system such as Android Studio (https://developer.android.com/studio)
-- An Android Mobile Smartphone. Sound nRF Toolbox is currently compatible to android devices. For assurance, android 10 update is ideal.
+- An Android Mobile Smartphone. Sound nRF Toolbox is currently compatible to android devices. For assurance, android 10 update is ideal. Android 4.3 or newer is required.
 - A Sensor device with BLE supported that provides RSC (Running speed and cadence) data. e.g. Stryd
 
 ## Cloning the repository
@@ -26,5 +26,5 @@ After selecting that option, you can type the URL of the repository, press "Clon
 To find the path to RSC cadence characteristics, go to <i>Users\username\...\Android-nRF-Toolbox-master\app\src\main\java\no\nordicsemi\android\nrftoolbox\rsc\ </i>
 Find more information in the Manual.pdf
  
-## Note
-Android 4.3 or newer is required.
+
+
