@@ -12,3 +12,18 @@ With Android Studio, you don't need to use the terminal to contribute to an Andr
 
 When you open Android Studio, it offers the option to open a project from version control. That's the option we'll use.
 
+![step 1](Source_code/resources/8SEqyls.png)
+
+After selecting that option, you can type the URL of the repository, press "Clone", and select a folder. After that, Android Studio will do all the work and open the project ready to go
+
+<p float="left">
+  <img src="Source_code/resources/2.png" width="450" />
+  <img src="/Source_code/resources/bM92C6R.png" width= "450" /> 
+</p>
+
+## RSC path
+
+To find the path to RSC cadence characteristics, go to <i>Users\username\...\Android-nRF-Toolbox-master\app\src\main\java\no\nordicsemi\android\nrftoolbox\rsc\ <i/>
+ 
+## Note
+Android 4.3 or newer is required.
