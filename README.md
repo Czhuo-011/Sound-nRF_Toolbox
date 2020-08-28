@@ -7,6 +7,26 @@ Sound nRF is an extended version of the nRF Toolbox which can be found at https:
 - An Android Mobile Smartphone. Sound nRF Toolbox is currently compatible to android devices. For assurance, android 10 update is ideal. Android 4.3 or newer is required.
 - A Sensor device with BLE supported that provides RSC (Running speed and cadence) data. e.g. Stryd
 
+### Dependencies
+
+nRF Toolbox depends on [Android BLE Library](https://github.com/NordicSemiconductor/Android-BLE-Library/) 
+which has to be cloned into the same root folder as this app. If you prefer a different name, 
+update the [*settings.gradle*](https://github.com/NordicSemiconductor/Android-BLE-Library/blob/master/settings.gradle) file.
+
+In order to compile the project the **DFU Library is required**. This project may be found here: 
+https://github.com/NordicSemiconductor/Android-DFU-Library.
+Since version 1.16.1 it is imported automatically from *jcenter* repository and no special 
+configuration is needed. If you want to make some modifications in the DFU Library, please clone 
+the DFU Library to the same root as nRF Toolbox is cloned and name the library's folder **DFULibrary**. 
+Add the dfu module in Project Structure and edit *app/build.gradle* file and *settings.gradle* 
+files as describe in them.
+
+The nRF Toolbox also uses the nRF Logger API library which may be found here: 
+https://github.com/NordicSemiconductor/nRF-Logger-API. The library is included in dependencies 
+in *build.gradle* file. This library allows the app to create log entries in the 
+[nRF Logger](https://play.google.com/store/apps/details?id=no.nordicsemi.android.log) application. 
+Please, read the library documentation on GitHub for more information about the usage and permissions.
+
 ## Cloning the repository from version control
 With Android Studio, you don't need to use the terminal to contribute to an Android project on GitHub. It has native integration with git and GitHub to allow most actions via the Android Studio UI.
 
@@ -21,11 +41,29 @@ After selecting that option, you can type the URL of the repository, press "Clon
   <img src="/Source_code/resources/bM92C6R.png" width= "450" /> 
 </p>
 
+## How Sound nRF Toolbox works 
+
+### When sound start:
+Sound will beep for 2 minutes when cadence met any of two conditions
+1. When cadence increases from 10.
+<b>Example </b>: It's the case when cadence starts from zero.
+2. When the cadence gap increases or decreases by 15.
+<b>Example </b>: cadence is 150 when sound stops and then it will restart sound
+when cadence increases to 166 or dropped to 134.
+
+### When sound stops:
+It’s the condition when the sound is on for 2 minutes . It will stop when cadence
+met any of two conditions
+1. When two minutes completed
+2. When cadence suddenly dropped to 0 or less than 10
+
 ## RSC path
 
 To find the path to RSC cadence characteristics, go to <i>Users\username\...\Android-nRF-Toolbox-master\app\src\main\java\no\nordicsemi\android\nrftoolbox\rsc\ </i>
 
 Find more information in the Manual.pdf
+
+
  
 
 
