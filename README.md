@@ -18,7 +18,7 @@ After selecting that option, you can type the URL of the repository, press "Clon
 
 <p float="left">
   <img src="Source_code/resources/2.png" width="420" />
-  <img src="/Source_code/resources/bM92C6R.png" width= "400" /> 
+  <img src="/Source_code/resources/bM92C6R.png" width= "450" /> 
 </p>
 
 ## RSC path
