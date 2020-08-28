@@ -44,18 +44,17 @@ After selecting that option, you can type the URL of the repository, press "Clon
 ## How Sound nRF Toolbox works 
 
 ### When sound start:
-Sound will beep for 2 minutes when cadence met any of two conditions
+Sound will initiate for 2 minutes when cadence meets the following conditions:
 1. When cadence increases from 10.
 <b>Example </b>: It's the case when cadence starts from zero.
-2. When the cadence gap increases or decreases by 15.
+2. When the cadence gap deviates by 15.
 <b>Example </b>: cadence is 150 when sound stops and then it will restart sound
 when cadence increases to 166 or dropped to 134.
 
 ### When sound stops:
-It’s the condition when the sound is on for 2 minutes . It will stop when cadence
-met any of two conditions
+It will stop when cadence meets the following conditions:
 1. When two minutes completed
-2. When cadence suddenly dropped to 0 or less than 10
+2. When cadence suddenly dropped to 0 or less than 10 
 
 ## RSC path
 
