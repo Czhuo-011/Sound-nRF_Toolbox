@@ -7,7 +7,7 @@ Sound nRF is an extended version of the nRF Toolbox which can be found at https:
 - An Android Mobile Smartphone. Sound nRF Toolbox is currently compatible to android devices. For assurance, android 10 update is ideal. Android 4.3 or newer is required.
 - A Sensor device with BLE supported that provides RSC (Running speed and cadence) data. e.g. Stryd
 
-## Cloning the repository with version control
+## Cloning the repository from version control
 With Android Studio, you don't need to use the terminal to contribute to an Android project on GitHub. It has native integration with git and GitHub to allow most actions via the Android Studio UI.
 
 When you open Android Studio, it offers the option to open a project from version control. That's the option we'll use.
