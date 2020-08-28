@@ -50,7 +50,7 @@ Sound will initiate for 2 minutes when cadence meets the following conditions:
 2. When the cadence gap deviates by 15.
 <b>Example </b>: cadence is 150 when sound stops and then it will re-initiate the sound for 2 minutes when cadence increases to 166 or dropped to 134.
 
-### When sound stops:
+### When sound stop:
 It will stop when cadence meets the following conditions:
 1. When two minutes completed
 2. When cadence suddenly dropped to 0 or less than 10 
