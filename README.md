@@ -37,8 +37,8 @@ When you open Android Studio, it offers the option to open a project from versio
 After selecting that option, you can type the URL of the repository, press "Clone", and select a folder. After that, Android Studio will do all the work and open the project ready to go
 
 <p float="left">
-  <img src="Source_code/resources/2.png" width="400" />
-  <img src="/Source_code/resources/bM92C6R.png" width= "440" /> 
+  <img src="Source_code/resources/2.png" width="380" />
+  <img src="/Source_code/resources/bM92C6R.png" width= "420" /> 
 </p>
 
 ## How Sound nRF Toolbox works 
